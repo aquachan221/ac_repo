@@ -1,0 +1,67 @@
+🔹 General-Purpose Registers (32-bit / 64-bit)
+| 64-bit | 32-bit | 16-bit | 8-bit High | 8-bit Low | Description |
+|--------|--------|--------|------------|-----------|-------------|
+| RAX    | EAX    | AX     | AH         | AL        | Accumulator |
+| RBX    | EBX    | BX     | BH         | BL        | Base        |
+| RCX    | ECX    | CX     | CH         | CL        | Counter     |
+| RDX    | EDX    | DX     | DH         | DL        | Data        |
+| RSI    | ESI    | SI     | —          | —         | Source Index|
+| RDI    | EDI    | DI     | —          | —         | Dest. Index |
+| RBP    | EBP    | BP     | —          | —         | Base Pointer|
+| RSP    | ESP    | SP     | —          | —         | Stack Ptr   |
+Additional 64-bit registers: R8–R15
+
+🔹 Segment Registers
+CS – Code Segment  
+DS – Data Segment  
+SS – Stack Segment  
+ES – Extra Segment  
+FS – Additional Segment  
+GS – Additional Segment
+
+🔹 Instruction & Flags
+RIP – Instruction Pointer (64-bit)  
+EIP – Instruction Pointer (32-bit)  
+RFLAGS / EFLAGS – Flags Register
+
+🔹 Control Registers
+CR0 – Control Register 0  
+CR2 – Page Fault Linear Address  
+CR3 – Page Directory Base Register  
+CR4 – Control Register 4  
+CR8 – Task Priority Register (64-bit only)
+
+🔹 Debug Registers
+DR0–DR7 – Hardware breakpoints
+
+🔹 Floating Point Unit (FPU) Registers
+ST(0) to ST(7) – 80-bit floating-point stack
+
+🔹 SIMD / Vector Registers
+MMX (MM0–MM7) – 64-bit multimedia  
+XMM (XMM0–XMM31) – 128-bit SSE  
+YMM (YMM0–YMM31) – 256-bit AVX  
+ZMM (ZMM0–ZMM31) – 512-bit AVX-512  
+K0–K7 – Mask registers for AVX-512
+
+🎮 x86 GPU Registers
+
+🔹 Common GPU Register Types
+General-Purpose Registers (GPRs)  
+Input Registers  
+Output Registers  
+Constant Registers  
+Temporary Registers  
+Address Registers  
+Predicate Registers  
+Special Registers (e.g., Thread ID)
+
+🔹 NVIDIA GPU Registers
+r0–r255 – General-purpose  
+pred0–pred7 – Predicate  
+c[0]–c[N] – Constant memory
+
+🔹 AMD GPU Registers
+v0–v255 – Vector registers  
+s0–s103 – Scalar registers  
+Special: tba, tma, exec, vcc, etc.
