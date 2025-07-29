@@ -1,0 +1,4 @@
+orichalcum_shortsword_damage=14
+orichalcum_shortsword_weight=8
+orichalcum_shortsword_durability=350
+orichalcum_shortsword_enchantment=0

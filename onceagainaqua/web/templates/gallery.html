@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>goobie snoobert</title>
+</head>
+<body>
+    <h2>Image Gallery</h2>
+    {% for image in images %}
+        <img src="{{ url_for('static', filename='images/' ~ image) }}" alt="{{ image }}" style="width:300px; margin:10px;">
+    {% endfor %}
+</body>
+</html>

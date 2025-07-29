@@ -1,0 +1,16 @@
+ranger_base_vitality=50
+ranger_base_strength=10
+ranger_base_stamina=13
+ranger_base_dexterity=10
+ranger_base_endurance=15
+ranger_base_intelligence=10
+ranger_base_wisdom=10
+ranger_base_willpower=8
+ranger_base_stealth=8
+ranger_base_evasion=10
+ranger_base_luck=10
+ranger_base_charisma=7
+ranger_base_intimidation=5
+ranger_base_perception=6
+ranger_base_affinity=10
+ranger_base_crafting_skill=9

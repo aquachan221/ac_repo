@@ -1,0 +1,25 @@
+#example armors
+#sell price:
+copper_chestplate_imperial_marks_sell_price=0
+copper_chestplatehexcoins_sell_price=0
+copper_chestplate_verdant_gems_sell_price=0
+copper_chestplate_obsidian_shards_sell_price=0
+copper_chestplate_emberfragments_sell_price=0
+copper_chestplate_gleep_glops_sell_price=0
+copper_chestplate_reyas_sell_price=0
+copper_chestplate_dragon_scales_sell_price=0
+copper_chestplate_ember_coins_sell_price=0
+#armor type
+copper_chestplate_type=("")
+#weight
+copper_chestplate_item_weight=0
+#armor damage
+copper_chestplate_damage=0
+#durability
+copper_chestplate_durability=0
+#element type
+copper_chestplate_element_type=("")
+#enchantment level
+copper_chestplate_enchantment=("")
+copper_chestplate_enchantment_level=0
+#

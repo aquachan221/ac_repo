@@ -1,0 +1,4 @@
+voidmetal_shortsword_damage=22
+voidmetal_shortsword_weight=12
+voidmetal_shortsword_durability=550
+voidmetal_shortsword_enchantment=0

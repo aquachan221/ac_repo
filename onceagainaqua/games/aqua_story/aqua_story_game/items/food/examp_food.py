@@ -1,0 +1,18 @@
+#examp food
+examp_food_imperial_marks_sell_price=0
+examp_food_hexcoins_sell_price=0
+examp_food_verdant_gems_sell_price=0
+examp_food_obsidian_shards_sell_price=0
+examp_food_emberfragments_sell_price=0
+examp_food_gleep_glops_sell_price=0
+examp_food_reyas_sell_price=0
+examp_food_dragon_scales_sell_price=0
+examp_food_ember_coins_sell_price=0
+#weight
+examp_food_weight=0
+
+
+
+
+
+

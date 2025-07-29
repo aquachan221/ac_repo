@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wow</title>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <h2>goofball</h2>
+  <div id="chat"></div>
+  <input id="message" autocomplete="off" placeholder="Say something..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <script>
+    const socket = io();
+
+    socket.on('message', function(msg) {
+      const chat = document.getElementById('chat');
+      const messageEl = document.createElement('div');
+      messageEl.textContent = msg;
+      chat.appendChild(messageEl);
+      chat.scrollTop = chat.scrollHeight;
+    });
+
+    function sendMessage() {
+      const input = document.getElementById('message');
+      const msg = input.value;
+      if (msg.trim()) {
+        socket.send(msg);
+        input.value = '';
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+starforged_shortsword_damage=24
+starforged_shortsword_weight=13
+starforged_shortsword_durability=600
+starforged_shortsword_enchantment=0

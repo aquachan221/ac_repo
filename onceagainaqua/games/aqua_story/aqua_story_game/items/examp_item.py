@@ -1,0 +1,18 @@
+#example item
+example_item_imperial_marks_sell_price=0
+example_item_hexcoins_sell_price=0
+example_item_verdant_gems_sell_price=0
+example_item_obsidian_shards_sell_price=0
+example_item_emberfragments_sell_price=0
+example_item_gleep_glops_sell_price=0
+example_item_reyas_sell_price=0
+example_item_dragon_scales_sell_price=0
+example_item_ember_coins_sell_price=0
+example_item_weight=0
+
+#this is just the basics for weapons you would look at examp_weapon
+#and for potions you would look at examp_potion
+
+
+
+

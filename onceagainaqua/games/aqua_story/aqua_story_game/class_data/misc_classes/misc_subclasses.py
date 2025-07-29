@@ -1,0 +1,1 @@
+misc_classes = ["37: soulreaper", "38: cosmic_herald"]

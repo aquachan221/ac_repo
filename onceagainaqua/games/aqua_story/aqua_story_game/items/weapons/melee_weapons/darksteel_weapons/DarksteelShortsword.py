@@ -1,0 +1,4 @@
+darksteel_shortsword_damage=16
+darksteel_shortsword_weight=9
+darksteel_shortsword_durability=400
+darksteel_shortsword_enchantment=0

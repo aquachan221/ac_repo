@@ -1,0 +1,285 @@
+
+
+Welcome to the Aqua Story Manual, where you can find all the tips and tricks to helping you explore the vast lands of the Vaelion Expanse, as well as lore tid-bits.
+
+nyxian reach = dlc
+The Nyxian Reach DLC adds the fourth planet, a planet constructed and brought to life by the Nyxians to be used as a weapon. \
+
+- Strength - Determines melee damage and ability to lift heavy objects.
+- Dexterity - Affects agility, reflexes, and ranged attack precision.
+- Endurance - Governs stamina, resistance to fatigue, and overall durability.
+- Intelligence - Impacts spell power, puzzle-solving ability, and strategic thinking.
+- Wisdom - Influences perception, insight, and effectiveness with certain magic types.
+- Willpower - Governs mental resilience, resistance to fear, and focus.
+- Vitality - Controls health points and resistance to physical damage.
+- Evasion - Determines chance to dodge attacks and escape danger.
+- Luck - Affects random chances like critical hits, item drops, and gambling success.
+- Charisma - Determines persuasion ability, leadership skills, and charm.
+- Intimidation - Affects ability to scare enemies and assert dominance.
+- Perception - Governs awareness of surroundings and hidden details.
+- Stealth - Controls ability to sneak, hide, and avoid detection.
+- Affinity - Measures connection with elemental forces or magic types.
+- Crafting Skill - Determines proficiency in creating weapons, potions, and other items.
+way to go archer you totally fixed this
+player_imperial_marks=0
+player_hexcoins=0
+player_verdant_gems=0
+player_obsidian_shards=0
+player_emberfragments=0
+player_gleep_glops=0
+reyas=0
+dragon_scales=0
+ember_coins=0
+
+The Planets
+- Vaeloria - A realm of warring kingdoms, celestial beings, and deep mysteries.
+- Verdastra - A sprawling continent filled with lush jungles, ruins, and ancient guardians.
+- Thyraxia - A war-torn world shaped by blood, conquest, and shattered civilizations.
+- Nyxian Reach -
+The Moons
+- Faelin - A lush moon with a vibrant ecosystem, but the flora may not appreciate a outsider.
+- Kildin - A blood-red moon where people who have hate in their hearts dwell.
+- Eldrasil - The ancient moon, believed to hold the remains of a lost civilizations.
+- Nyxova - A shadowy moon that only appears fully during eclipses.
+- Solmere - The golden moon, said to store the sun’s energy.
+- Vaelith - The mist-shrouded moon, where spirits are rumored to dwell.
+- Zepharion - A swift-moving moon associated with winds and change.
+- Veinloria - A mysterious moon associated with death and disease.
+- Signia - The coldest moon, where no life is said to be harborable.
+- Vazio - moon with no planet, people who wander with no purpose end up here.
+
+The Astral Gate:
+teleports people from the different planets to either moons or another planet
+The capital city of each capital country has one
+
+countries:
+
+Vaeloria countries:
+Vaelthyrr - A mage-ruled country where magic flows through the air and sorcerers reign supreme.
+Nyxoria - A shadowy land where crime is normalized, and gangs control the land.
+Zephyria - A mystical and whimsical kingdom where magical creatures live in harmony with the locals.
+Solmara(capital country) - A desert empire where the Emperor Marzahir rules with an iron fist.
+
+Verdastra countries:
+Sylvaris - A mysterious and secretive forest land, where the tree line hides Sylvaris from the rest of Verdastra.
+Aqualonia(capital country) - Waterbased civilization, as it is completely underwater, Aqualonia is also the cultural and scientific leader.
+Limvendeil - A frozen wilderness, home to ice-cloaked hunters and beings carved from enchanted frost. noy
+Velmorin - A hidden valley, untouched by war, where whispers of the land’s ancestors guide its people.
+Caylin - A peaceful agricultural country, where no warring faction dares to step in, fearful of being shunned by all other countries
+
+Thyraxia countries:
+Londoria(capital country) - A mighty warrior kingdom, standing as the last bastion against invading forces and chaos.
+Incendia - A molten empire, forged from lava and war, where warriors wield the power of the flames
+Vorthemir - Vorthemir is a dark land where ash and disease take the souls of many.
+Ashenvald - A land of eternal autumn, where warriors fight to preserve their honor and the fading ember of their people’s legacy.
+
+
+
+
+ores:
+- Mithril – A lightweight, incredibly strong silver-like metal (from Tolkien’s works).
+- Adamantite – A nearly indestructible ore used for weapons and armor (seen in many RPGs).
+- Orichalcum – A mystical copper-like metal with magical properties (originates from Plato’s Atlantis).
+- Meteoric Iron – Metal from fallen stars, often imbued with celestial power.
+- Dragonsteel – Forged with dragon fire, said to be stronger than normal steel.
+- Starstone Ore – A rare mineral that glows with cosmic energy.
+- Bloodstone Ore – A dark, cursed ore that enhances magic but corrupts the user.
+- Voidmetal – A mysterious black metal that absorbs magic and light.
+- Runite – A rune-infused ore used for enchanted weapons.
+- Celestium – A divine ore said to be blessed by celestial beings.
+- Shadowsteel – A dark metal that bends light and is favored by assassins.
+- Eldarium – An ancient metal infused with eldritch energy.
+- Frostiron – A cold-resistant metal found in frozen lands.
+- Pyrite Ore – A fiery ore that enhances flame-based magic.
+- Aetherium – A mystical ore used for teleportation and energy manipulation.
+- Oblivium – A metal that erases memories when touched.
+- Soulsteel – Forged with the essence of fallen warriors.
+- Verdantium – A green ore that enhances nature-based magic.
+- Luminite – A glowing ore used for holy weapons.
+- Duskmetal – A twilight-colored ore that shifts between solid and liquid states.
+- Emberstone – A fiery ore that radiates heat and can be forged into flame-resistant armor.
+- Stormsilver – A metal infused with lightning energy, crackling with static when touched.
+- Deepiron – Found only in the depths of the earth, resistant to magic and nearly unbreakable.
+- Moonsteel – A silvery metal that glows faintly under moonlight, favored by night warriors.
+- Voidglass – A crystalline ore that absorbs light, making weapons nearly invisible in darkness.
+- Ashenite – A brittle, volcanic ore that enhances fire magic but crumbles under extreme cold.
+- Tidecore – A water-infused metal that shifts between solid and liquid states.
+- Hallowgold – A sacred metal used in divine artifacts, repelling dark magic.
+- Dreadstone – A cursed ore that whispers to its wielder, tempting them toward destruction.
+- Skyiron – A lightweight metal found in floating islands, used for aerial combat gear.
+- Eclipsium – A dark metal that bends shadows, allowing stealthy movement.
+- Frostvein Ore – A chilling metal that freezes anything it touches.
+- Sungold – A radiant metal that glows like the sun, used in holy weapons.
+- Nethersteel – A metal forged in the underworld, resistant to fire and demonic energy.
+- Echoite – A resonant ore that amplifies sound, used in enchanted musical instruments.
+- Glacium – A translucent ice-metal that never melts, perfect for frost weapons.
+- Thundrium – A volatile ore that releases bursts of energy when struck.
+- Shadowvein – A dark mineral that enhances necromantic spells.
+- Aurorite – A shimmering ore that shifts colors based on magical energy nearby.
+- Starshard Metal – A rare celestial ore that enhances cosmic magic.
+- ziggarium
+woods:
+- Whisperwood – A sentient tree that murmurs secrets when the wind blows.
+- Moonbark – A pale, glowing wood that absorbs lunar energy.
+- Emberwood – A fiery tree that never burns, often used for magical staffs.
+- Stormoak – A tree infused with lightning, crackling with static energy.
+- Shadowpine – A dark, twisted tree that thrives in eternal twilight.
+- Frostwood – A frozen tree that never melts, used for ice magic.
+- Sungrove Timber – A golden-hued wood that radiates warmth and light.
+- Voidbark – A black, hollow wood that absorbs magic and sound.
+- Echowood – A resonant tree that amplifies sound, used in enchanted instruments.
+- Dewbark – A tree that drips magical nectar, enhancing healing spells.
+- Bloodwood – A deep red tree that enhances life magic but drains energy.
+- Skywillow – A tree that grows in floating islands, bending with the wind.
+- Ashenwood – A cursed tree found in the underworld, resistant to fire.
+- Glacibark – A translucent ice-wood, perfect for frost weapons.
+- Thundertree – A volatile tree that releases bursts of energy when struck.
+- Aurorawood – A shimmering tree that shifts colors based on magical energy nearby.
+- Starroot Timber – A celestial tree that enhances cosmic magic.
+- Duskwood – A twilight-colored tree that shifts between solid and liquid states.
+- Hallowbark – A sacred tree used in divine artifacts, repelling dark magic.
+- Tidewood – A water-infused tree that shifts between solid and liquid states.
+- Soulwood – A tree infused with the spirits of ancient warriors, whispering their wisdom to those who wield it.
+- Dawnwood – A golden-hued tree that absorbs sunlight, glowing faintly at sunrise.
+- Ironbark – A tree with bark as tough as steel, nearly impossible to cut without enchanted tools.
+- Stormroot – A tree that thrives in thunderstorms, crackling with latent electricity.
+- Veilwood – A ghostly pale tree that bends reality, making those near it appear slightly translucent.
+- Hearthwood – A warm, ember-like tree that radiates comforting heat, often used in enchanted fireplaces.
+- Nightshade Timber – A dark, eerie wood that enhances shadow magic and stealth abilities.
+- Echooak – A tree that its wood is known for its sound amplifying characteristics or quiet noise.
+- Gloamwood – A twilight-colored tree that shifts between solid and mist-like states.
+- Starbark – A celestial tree that absorbs cosmic energy, shimmering under the night sky.
+- Bloodbark – A deep crimson tree that pulses with life energy, often used in healing magic.
+- Voidroot – A tree that absorbs magic, rendering enchanted weapons dull when near it.
+- Frostpine – A tree that thrives in frozen tundras, its wood permanently chilled.
+- Ashenwood – A tree that regenerates after being burned, growing stronger with each cycle.
+- Tidebark – A tree that grows near the ocean, its wood shifting between dry and waterlogged states.
+- Luminwood – A radiant tree that glows softly, often used in sacred rituals.
+- Dreadbark – A cursed tree that instills fear in those who touch it, used in dark enchantments.
+- Skybough – A tree that grows on floating islands, its roots absorbing energy from the air.
+- Hollowwood – A tree with naturally hollow trunks, perfect for crafting wind instruments.
+- Emberbough – A tree that smolders without burning, often used for fire-resistant structures.
+
+potions:
+- Potion of lesser healing - health small
+- Potion of Minor Healing – Restores a small amount of health.
+- Potion of Greater Healing – A stronger version of the healing potion.
+- Elixir of Regeneration – Gradually restores health over time.
+- Tonic of Vitality – Boosts max health temporarily.
+- Bloodroot Brew – A herbal potion that enhances healing effects.
+- Phoenix Draught – Revives the drinker upon defeat.
+- Celestial Nectar – A divine potion that heals and removes curses.
+- Dragon’s Heart Elixir – Grants temporary resistance to damage.
+- Moonlight Tonic – Restores health and enhances night vision.
+- Potion of Arcane Restoration – Heals and restores magical energy.
+- Crimson Remedy – A potion made from rare blood-red herbs.
+- Elixir of the Sun – Heals and grants fire resistance.
+- Shadowbane Brew – Restores health and protects against dark magic.
+- Potion of the Earth’s Embrace – Heals and boosts defense.
+- Stormborn Elixir – Restores health and grants lightning resistance.
+- Potion of the Frozen Soul – Heals and protects against cold damage.
+- Golden Ambrosia – A legendary potion that fully restores health.
+- Potion of the Eternal Flame – Heals and prevents burn damage.
+- Mystic Dew – A rare potion that heals and enhances wisdom.
+- Potion of the Wild Spirit – Restores health and boosts agility.
+
+
+
+races
+
+Elves
+Orcs
+Halflings
+Trolls
+Draconians
+Fey
+Aquael
+Pyronites
+Stormforged
+Glacians
+Terravarn
+Luminari
+Nyxborn
+Seraphim
+Voidwalkers
+Lycanthari
+Felkin
+Draconid
+Aviari
+Sylvani
+Zephyrian
+Skibidian #most hates
+Astrali
+Solari
+Lunari
+Vulpen
+Ursori #most hates
+Cervan #the one that everyone is racist against
+Chronovar
+Drakari
+Sylph
+Naga
+Felvarin
+Romanagong
+Human
+Aveld
+Canian
+Zipzopper #most hate
+BINGBONGCHONGER #most hate
+Gipgorper #most hate
+Thaloran
+Velmari
+Imperial
+Lunawatch
+Selari
+Havokari
+Noctiri
+Thalian 
+Aviari
+Mythari
+Solmari
+Frenchonlious #most hate
+Sigmai #most hate
+Astravyn
+Aetherkin
+Eclipsian
+Glipgleopjop #most hate
+Ziggerian #most hate
+Fientangli #most hate
+Aquari
+Jonklerian #most hate
+Marian
+Miaian
+Mochichan
+Jojoian
+Sirocari
+Vegetalai #most hate
+Mememanian #most hate
+Orangian
+Vectorperkian #most hate
+Feinlongugonglanglongchongbangdai #most hate
+Feloniousgrusrian #most 
+Nidrian
+Ianian
+
+
+
+
+
+"""
+
+Intros
+
+Slave labor ship escape: Vaeloria: You escape from a Slave trade ship heading from nyxoria to solmara
+Forest, Verdastra: You wake up in a large forest, hunting the wildlife and obtaining your first weapon
+Temple, Thyraxia: You wake up in a abandoned temple, and you learn how to scavenge and fight the spirits that haunt the temple.
+Village, Vaeloria: You wake up in a ruined village, and learn to
+scavenge for useful items and obtaining your first weapon.
+Shipwreck, Verdastra
+: You wake up in a shipwreck, and learn to 
+Battlefield, Thyraxia
+Garden, Vaeloria
+Tower, Verdastra
+Mines, Thyraxia
+Ruins, Vaeloria
+Monastery, Verdastra

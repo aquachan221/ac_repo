@@ -1,0 +1,4 @@
+divinium_shortsword_damage=26
+divinium_shortsword_weight=14
+divinium_shortsword_durability=650
+divinium_shortsword_enchantment=0

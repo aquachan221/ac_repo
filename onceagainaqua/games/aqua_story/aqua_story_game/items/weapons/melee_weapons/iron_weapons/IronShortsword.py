@@ -1,0 +1,4 @@
+iron_shortsword_damage=6
+iron_shortsword_weight=4
+iron_shortsword_durability=150
+iron_shortsword_enchantment=0

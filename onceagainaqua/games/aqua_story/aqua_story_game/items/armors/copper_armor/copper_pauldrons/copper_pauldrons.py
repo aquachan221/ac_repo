@@ -1,0 +1,25 @@
+#example armors
+#sell price:
+copper_pauldrons_imperial_marks_sell_price=0
+copper_pauldronshexcoins_sell_price=0
+copper_pauldrons_verdant_gems_sell_price=0
+copper_pauldrons_obsidian_shards_sell_price=0
+copper_pauldrons_emberfragments_sell_price=0
+copper_pauldrons_gleep_glops_sell_price=0
+copper_pauldrons_reyas_sell_price=0
+copper_pauldrons_dragon_scales_sell_price=0
+copper_pauldrons_ember_coins_sell_price=0
+#armor type
+copper_pauldrons_type=("")
+#weight
+copper_pauldrons_item_weight=0
+#armor damage
+copper_pauldrons_damage=0
+#durability
+copper_pauldrons_durability=0
+#element type
+copper_pauldrons_element_type=("")
+#enchantment level
+copper_pauldrons_enchantment=("")
+copper_pauldrons_enchantment_level=0
+#ZIGGER

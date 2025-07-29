@@ -1,0 +1,4 @@
+titanium_shortsword_damage=10
+titanium_shortsword_weight=6
+titanium_shortsword_durability=250
+titanium_shortsword_enchantment=0

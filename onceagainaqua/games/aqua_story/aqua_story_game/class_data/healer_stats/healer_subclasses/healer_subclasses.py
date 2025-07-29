@@ -1,0 +1,1 @@
+healer_classes = ["17: cleric", "18: druid", "19: shaman", "20: field_surgeon", "21: beastmaster", "22: spiritwalker", "23: oracle", "24: soulhealer", "25: arcane_healer"]

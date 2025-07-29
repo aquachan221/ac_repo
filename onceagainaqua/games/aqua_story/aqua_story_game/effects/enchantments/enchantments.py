@@ -1,0 +1,9 @@
+unbreaking1=50
+unbreaking2=100
+unbreaking3=150
+sharpness1=10
+sharpness2=20
+sharpness3=30
+thorns1=10
+thorns2=30
+thorns3 = 50

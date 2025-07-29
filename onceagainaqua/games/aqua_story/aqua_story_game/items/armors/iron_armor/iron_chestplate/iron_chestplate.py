@@ -1,0 +1,24 @@
+#iron_chestplate
+#sell price:
+iron_chestplate_imperial_marks_sell_price=0
+iron_chestplate_hexcoins_sell_price=0
+iron_chestplate_verdant_gems_sell_price=0
+iron_chestplate_obsidian_shards_sell_price=0
+iron_chestplate_emberfragments_sell_price=0
+iron_chestplate_gleep_glops_sell_price=0
+iron_chestplatereyas_sell_price=0
+iron_chestplate_dragon_scales_sell_price=0
+iron_chestplate_ember_coins_sell_price=0
+#armor type
+iron_chestplate_type=("")
+#weight
+iron_chestplate_item_weight=0
+#armor damage
+iron_chestplate_damage=0
+#durability
+iron_chestplate_durability=0
+#element type
+iron_chestplate_element_type=("")
+#enchantment level
+iron_chestplate_enchantment=("")
+iron_chestplate_enchantment_level=0

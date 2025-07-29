@@ -1,0 +1,16 @@
+healer_base_vitality=50
+healer_base_strength=10
+healer_base_stamina=13
+healer_base_dexterity=10
+healer_base_endurance=15
+healer_base_intelligence=10
+healer_base_wisdom=10
+healer_base_willpower=8
+healer_base_stealth=8
+healer_base_evasion=10
+healer_base_luck=10
+healer_base_charisma=7
+healer_base_intimidation=5
+healer_base_perception=6
+healer_base_affinity=10
+healer_base_crafting_skill=9

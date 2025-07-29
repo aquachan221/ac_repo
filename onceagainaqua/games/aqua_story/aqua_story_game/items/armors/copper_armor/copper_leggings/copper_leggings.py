@@ -1,0 +1,25 @@
+#example armors
+#sell price:
+copper_leggings_imperial_marks_sell_price=0
+copper_leggingshexcoins_sell_price=0
+copper_leggings_verdant_gems_sell_price=0
+copper_leggings_obsidian_shards_sell_price=0
+copper_leggings_emberfragments_sell_price=0
+copper_leggings_gleep_glops_sell_price=0
+copper_leggings_reyas_sell_price=0
+copper_leggings_dragon_scales_sell_price=0
+copper_leggings_ember_coins_sell_price=0
+#armor type
+copper_leggings_type=("")
+#weight
+copper_leggings_item_weight=0
+#armor damage
+copper_leggings_damage=0
+#durability
+copper_leggings_durability=0
+#element type
+copper_leggings_element_type=("")
+#enchantment level
+copper_leggings_enchantment=("")
+copper_leggings_enchantment_level=0
+#

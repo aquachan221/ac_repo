@@ -1,0 +1,1 @@
+magic_classes = ["5: pyromancer", "6: chronomancer", "7: illusionist", "8: geomancer", "9: technomancer", "10: runeweaver", "11: stormcaller", "12: voidwalker", "13: soulbinder", "14: bloodmage", "15: arcane_scholar", "16: lightweaver"]
