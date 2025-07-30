@@ -1,10 +1,13 @@
 import os
+import eventlet
+eventlet.monkey_patch()
+
 from flask import Flask, render_template
 from flask_socketio import SocketIO, send
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
-socketio = SocketIO(app)
+socketio = SocketIO(app, async_mode='eventlet')
 
 pages = {
     'cat': 'goobie snoobert',
@@ -30,7 +33,6 @@ def about():
 def howdyougethere():
     return "<h2>giggle</h2>"
 
-# 🔹 NEW: Chat page route
 @app.route('/chat')
 def chat():
     return render_template('chat.html')
@@ -39,11 +41,10 @@ def chat():
 def song():
     return "<h2>🎵 This is the Song page.</h2>"
 
-# 🔹 NEW: Socket.IO message handler
 @socketio.on('message')
 def handle_message(msg):
     print(f'Message: {msg}')
     send(msg, broadcast=True)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
