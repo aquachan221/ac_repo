@@ -3,7 +3,7 @@ import sys
 import os
 
 # 💧 Customize paths
-script_path = r"D:\aqua\code\aqua_app\this_isnt_a_folder\for_the_greater_good\1.py"
+script_path = r"D:\aqua\repo\ac_repo\onceagainaqua\apiam\sec\aqua_secure.py"
 destination_folder = r"D:\aqua\code\apiam\pyinstaller"
 
 # 🧠 Ensure destination exists

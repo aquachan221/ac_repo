@@ -1,0 +1,2 @@
+bootflow:
+aqua_boot32.asm -> aqua_gdt32.asm -> aqua_paging32.asm -> aqua_pmode32.asm -> aqua_kernel32.asm

@@ -1,0 +1,87 @@
+🍯 Caramel Language Documentation
+A minimalist scripting language for AquaOS — blending expressiveness, simplicity, and beauty.
+
+────────────────────────────────────
+📜 Syntax Overview
+
+Values:
+  42              # Number
+  "hi"            # String
+  true, false     # Boolean
+  null            # Null
+  [1, 2, 3]       # List
+  { a: 1 }        # Object (dictionary-style)
+
+Variables:
+  name = "Aqua"
+  age = 17
+
+Comments:
+  # This is a comment
+
+────────────────────────────────────
+🧱 Expressions & Operators
+
+  a + b
+  x * 10 - 3
+  age > 12
+  "hello" + "world"
+
+────────────────────────────────────
+🔁 Control Flow
+
+If / Else:
+  if x > 10:
+    print("big")
+  else:
+    print("small")
+
+While Loop:
+  while n < 5:
+    print(n)
+    n = n + 1
+
+For Loop:
+  for i = 0..3:
+    print(i)
+
+────────────────────────────────────
+🧰 Functions
+
+  func greet(name):
+    message = "hi, " + name
+    return message
+
+  greeting = greet("Trip")
+
+────────────────────────────────────
+📦 Built-ins
+
+  print(value)   — Output to console
+  len(x)         — Length of list or string
+  int(x)         — Convert to integer
+  str(x)         — Convert to string
+
+────────────────────────────────────
+📂 Importing Files
+
+  import "startup.cml"
+  → Loads and runs another .cml file into the same scope.
+
+────────────────────────────────────
+🧭 Objects & Access
+
+  user = { name: "Trip", age: 24 }
+  print(user.name)
+
+  colors = ["red", "green"]
+  print(colors[1])
+
+────────────────────────────────────
+🌌 Philosophy
+
+- Tiny Core: Minimal, readable syntax.
+- Hackable: Easily extendable from inside AquaOS.
+- Aqua-native: Tailored for UI, scripting, system logic.
+
+────────────────────────────────────
