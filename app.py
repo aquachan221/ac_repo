@@ -2,8 +2,8 @@ import os
 import eventlet
 eventlet.monkey_patch()
 
-from flask import Flask, render_template
-from flask_socketio import SocketIO, send
+from flask import Flask, render_template, request, make_response
+from flask_socketio import SocketIO, send, emit, join_room, leave_room
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
@@ -35,16 +35,37 @@ def howdyougethere():
 
 @app.route('/chat')
 def chat():
-    return render_template('chat.html')
+    username = request.cookies.get('username', '')
+    resp = make_response(render_template('chat.html', username=username))
+    return resp
 
 @app.route('/song')
 def song():
     return "<h2>🎵 This is the Song page.</h2>"
 
+users = {}
+
+@socketio.on('connect')
+def handle_connect():
+    pass  # Username will be sent by client after connect
+
+@socketio.on('set_username')
+def handle_set_username(username):
+    users[request.sid] = username
+    send(f"🟢 {username} joined the chat.", broadcast=True)
+    emit('user_list', list(users.values()), broadcast=True)
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    username = users.pop(request.sid, None)
+    if username:
+        send(f"🔴 {username} left the chat.", broadcast=True)
+        emit('user_list', list(users.values()), broadcast=True)
+
 @socketio.on('message')
 def handle_message(msg):
-    print(f'Message: {msg}')
-    send(msg, broadcast=True)
+    username = users.get(request.sid, "Anonymous")
+    send(f"{username}: {msg}", broadcast=True)
 
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 60000)), debug=True, log_output=True)
